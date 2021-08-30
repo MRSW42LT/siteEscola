@@ -1,5 +1,5 @@
-<body>
-  <?php include('header.php'); ?>
-  <?php include('footer.php'); ?>
-</body>
+<?php include('header.php'); ?>
+<main>
+</main>
+<?php include('footer.php'); ?>
 
