@@ -1,0 +1,324 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900);
+
+body {
+    margin: 0 auto;
+    width: 1024px;
+    font-family:  'serif';
+    background-position: 0px 0px;
+    background-repeat: repeat;
+    background-color: rgb(230, 230, 230);
+}
+
+header {
+    margin-top: 0px;
+    padding: 30px;
+    text-align: center;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 5px solid #3d7792;
+}
+
+header a {
+    color: #303030;
+    text-decoration: none;
+}
+
+main .imagem-top {
+    float: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    background-image: url("https://shootgtr.com/wp-content/uploads/2015/09/homesliderrange-1500x630.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+main .imagem-top .retangulo-top {
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 300px;
+    height: 480px;
+    background-color: #3d7792;
+}
+
+#informacao-titulo {
+    margin-left: 50px;
+    padding: 30px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 28px;
+    color: #fff;
+}
+#informacao-conteudo {
+    padding: 80px;
+    padding-bottom: 60px;
+    padding-top: 0px;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+}
+
+.button {
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -10px 70px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.button:hover {
+    color: white;
+}
+
+#header-left {
+    font-size: 20px;
+    float: left;
+    font-family: 'serif';
+}
+
+#header-right {
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 45px;
+    float: right;
+}
+
+main .cardstitle {
+  padding: 50px;
+  font-family: arial;
+  text-align: center;
+  font-size: 42px;
+  background-color: #fff;
+}
+
+main .row{
+    display: flex;
+    text-align: justify;
+}
+
+main .row .column{
+    flex: 33%;
+}
+
+main .row{
+    width: 100%;
+    height: 1100px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+main .row .column .card {
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+  font-family: arial;
+  font-size: 10px;
+}
+
+main .row .column .card .price {
+  color: grey;
+  font-size: 16px;
+}
+
+main .row .column .card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+main .row .column .card button:hover {
+  opacity: 0.7;
+}
+
+main {
+    margin-top: 30px;
+}
+
+.container_footer {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1024px;
+}
+
+.social a{
+    text-decoration: none;
+    color: #303030;
+}
+
+.social li{
+    display: inline-block;
+    padding-right: 30px;
+    list-style-type: none;
+}
+
+.formas-de-pagamento{
+    text-decoration: none;
+    color: #303030;
+}
+
+.formas-de-pagamento li{
+    display: inline-block;
+    padding-right: 30px;
+    list-style-type: none;
+}
+
+footer {
+    font-size: 12px;
+    padding: 1px;
+    text-align: center;
+    background: white;
+    color: #303030;
+}
+
+input[type=text] {
+    font-size: 16.5px;
+    margin-right: -5px;
+}
+
+#search-button {
+    margin-left: 0px;
+    padding: 2px;
+    margin-right: 20px;
+}
+
+.sobre-main-container {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 260px;
+    background: white;
+}
+
+.sobre-main-container #title {
+    color: #333333;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sobre-main-container #content {
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #303030;
+}
+
+.sobre-main-container a {
+    text-decoration: none;
+    color:  #3d7792;
+}
+
+.login-main-container {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    padding: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.login-main-container input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.login-main-container button {
+    background-color: #3d7792;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-main-container button:hover {
+    opacity: 0.8;
+}
+
+.login-main-container span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.login-main-container span.psw2 {
+    float: left;
+    padding-top: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  body {
+      margin: 0 auto;
+      width: 480px;
+      font-family:  'serif';
+      background-position: 0px 0px;
+      background-repeat: repeat;
+      background-color: rgb(230, 230, 230);
+  }
+  .row{
+      width: 100%;
+      height: 900px;
+      background-color: #ffffff;
+      margin-bottom: 30px;
+  }
+  .column{
+    flex-direction: column;
+    flex: auto;
+  }
+  .card {
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 110px;
+    margin: 10px;
+    text-align: center;
+    font-family: arial;
+    font-size: 10px;
+  }
+  .container_footer {
+      margin: 0 auto;
+      margin-top: 100px;
+      width: 480;
+  }
+  .formas-de-pagamento li{
+    display:flex ;
+  }
+  .social li{
+      display:flex;
+      padding-right: 30px;
+      list-style-type: none;
+  }
+  input[type=text] {
+    display: flex;
+      font-size: 16.5px;
+      margin-right: -5px;
+  }
+
+  #search-button {
+    display: flex;
+      margin-left: 0px;
+      padding: 2px;
+      margin-right: 0px;
+  }
+}
